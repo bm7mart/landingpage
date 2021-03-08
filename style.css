@@ -43,7 +43,7 @@ p {
 	list-style: none;
 	line-height: 25px;
 	padding-left: 0px;
-	margin-bottom: 15%;
+	padding-top: 17%;
 	}
 
 .lista li {
@@ -54,21 +54,36 @@ p {
 
 .lista a {
 	color: white;
-	font-size: 20px;
+	font-size: 22px;
 }
 
-.container {
-	margin-top: 12%;
-	border: 1px solid white;
-	background-color: white;
+.container1 {
+	margin-top: 8%;
+	background-color: rgba(172, 224, 189,0.4);
 	opacity: 0.97;
 	text-align: center;
     background-size: 80% 100%;
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+}
+
+.container {
+	border: 1px solid white;
+	background-color: rgba(255,255,255,1);
+	opacity: 1;
+	text-align: center;
+    background-size: 80% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 30px;
     padding-left: 25px;
     padding-right: 25px;
     border-radius: 15px;
